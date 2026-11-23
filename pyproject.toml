@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ann-entanglement"
+version = "1.0.0"
+description = "ANN-enhanced detection of multipartite entanglement in a three-qubit NMR quantum processor (QIP 24, 74, 2025)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Shivanshu Siyanwal" }, { name = "Vaishali Gulati" }]
+dependencies = ["numpy", "scipy", "pandas", "scikit-learn", "matplotlib"]
+
+[project.optional-dependencies]
+ann = ["tensorflow-cpu"]
+dev = ["pytest", "nbclient", "nbformat", "ipykernel"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

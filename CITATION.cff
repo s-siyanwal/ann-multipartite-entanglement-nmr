@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article below."
+title: "ANN-enhanced detection of multipartite entanglement in a three-qubit NMR quantum processor — code and data"
+type: software
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Siyanwal
+    given-names: Shivanshu
+  - family-names: Gulati
+    given-names: Vaishali
+preferred-citation:
+  type: article
+  title: "ANN-enhanced detection of multipartite entanglement in a three-qubit NMR quantum processor"
+  authors:
+    - family-names: Gulati
+      given-names: Vaishali
+    - family-names: Siyanwal
+      given-names: Shivanshu
+    - name: Arvind
+    - family-names: Dorai
+      given-names: Kavita
+  journal: "Quantum Information Processing"
+  volume: 24
+  start: 74
+  year: 2025
+  doi: 10.1007/s11128-025-04696-8
+  identifiers:
+    - type: other
+      value: "arXiv:2409.19739"
